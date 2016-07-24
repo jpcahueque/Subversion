@@ -62,7 +62,7 @@ public class Calculadora {
                         }
                         pilaCalc.push(Integer.toString(numero1));
                     }
-                    else{
+                   else if(!elementoActual.equalsIgnoreCase(" ")){
                         j=linea.length();
                         pilaCalc.push("error");
                     }
