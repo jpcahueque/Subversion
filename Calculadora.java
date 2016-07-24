@@ -17,7 +17,7 @@ public class Calculadora {
     private Stack pilaCalc;
     public Calculadora() {
         linea = "22+";
-        archivo = "C:\\Users\\JuanPablo\\Documents\\NetBeansProjects\\Subversion\\src\\subversion\\datos.txt";
+        archivo = "C:\\Users\\JuanPablo\\Documents\\NetBeansProjects\\Subversion\\src\\subversion\\datos.txt"; /*Esta direccion varia segun la direccion donde se enceuntre el archivo****/
         pilaCalc = new Stack();
     }
 
